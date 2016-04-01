@@ -1,7 +1,5 @@
 package ProgByDoing;
 
-
-
 /**
  *
  * @author Nafiu

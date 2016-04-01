@@ -1,13 +1,10 @@
 package ProgByDoing;
-
-
-
 import java.awt.*;
 import javax.swing.JFrame;
 
 /**
  *
- * @author Nafiu
+ * @author Lawal Nafiu
  */
 public class SmilingFaceFunction extends Canvas {
 

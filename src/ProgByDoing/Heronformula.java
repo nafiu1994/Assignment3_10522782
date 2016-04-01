@@ -1,20 +1,13 @@
 package ProgByDoing;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
- * @author LUMINA BFS
+ * @author Lawal Nafiu
  */
-
 /* 
     1. Yes! They both produce the same results
-    2. - 50 lines for HeronsFormulaNoFunction
-       - 30 lines for HeronsFormula
+    2. + 50 lines for HeronsFormulaNoFunction
+       + 30 lines for HeronsFormula
     2. Fixing the bug in the program that applies a fucntion
        is easier than the one that uses no function.
 */

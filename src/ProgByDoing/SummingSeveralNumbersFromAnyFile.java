@@ -3,21 +3,26 @@ package ProgByDoing;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.InputMismatchException;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 /**
  *
- * @author Lawal Nafiu
+ * @author Nafiu
  */
-public class SummingThree {
+public class SummingSeveralNumbersFromAnyFile {
     public static void main(String[] args)
     {
         Scanner input;
         int num;
         int sum = 0;
-        System.out.println("Reading numbers from file \"3nums.txt\"... done.");        try
+        String file;
+        System.out.println("Which file would you like to read numbers from:");
+        file = new Scanner(System.in).nextLine();
+        System.out.println("Reading numbers from file \"" + file + "\"... done.");
+        try
         {
-            input = new Scanner(new File("3nums.txt"));
+            input = new Scanner(new File(file));
             sum = 0;
             while(true)
             {
@@ -26,7 +31,7 @@ public class SummingThree {
                 System.out.print(num ); 
                 if (input.hasNextInt())
                 {
-                    System.out.print(" + ");
+                    System.out.print("  ");
                 }
             }
             
@@ -39,9 +44,15 @@ public class SummingThree {
         }
         catch(InputMismatchException mismatch)
         {
-            System.out.print( " = ");
-            System.out.println(sum);
+            System.out.print( "\nTotal is ");
+           System.out.println(sum);
+        }
+        catch(NoSuchElementException suchElement)
+        {
+           System.out.print( "\nTotal is ");
+           System.out.println(sum);
         }
         
     }
+    
 }

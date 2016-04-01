@@ -1,7 +1,5 @@
 package ProgByDoing;
 
-
-
 import java.io.FileReader;
 
 /**

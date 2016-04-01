@@ -22,7 +22,7 @@ public class ImageDemo extends Canvas
 	{
 		//           Image  , x,  y, this
 		g.drawImage(coolFace,100,100,this);
-                g.drawImage(myFace,300,100,this);
+                g.drawImage(myFace, 300, 100, 60, 80, this);
 		
 		// And, just for fun, let's give me a halo! This halo designed by Liz O in 2012.
 		g.setColor( Color.yellow );

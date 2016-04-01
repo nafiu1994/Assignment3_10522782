@@ -1,7 +1,4 @@
 package ProgByDoing;
-
-
-
 import java.util.Scanner;
 
 /**
@@ -27,7 +24,7 @@ public class OdometerLoops
                         System.out.print( " " + thous + "" + hund + "" + tens + "" + ones + "\r");
                         Thread.sleep(500);
                     }
-                }
+                }System.out.println();
             }
         }
 
